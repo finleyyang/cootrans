@@ -1,0 +1,4 @@
+/home/finley/Downloads/clion-2021.2.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/finley/CODE/Coordinate_transformation
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/finley/CODE/Coordinate_transformation/cmake-build-debug
