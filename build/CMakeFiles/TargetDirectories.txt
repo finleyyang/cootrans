@@ -1,0 +1,3 @@
+/home/finley/CODE/cootrans/build/CMakeFiles/edit_cache.dir
+/home/finley/CODE/cootrans/build/CMakeFiles/rebuild_cache.dir
+/home/finley/CODE/cootrans/build/CMakeFiles/Coordinate_transformation.dir

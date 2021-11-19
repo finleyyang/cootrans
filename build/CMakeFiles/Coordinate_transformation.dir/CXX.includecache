@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/finley/CODE/cootrans/CoordinateTransformation.h
+eigen3/Eigen/Eigen
+-
+
+/home/finley/CODE/cootrans/main.cpp
+iostream
+-
+algorithm
+-
+math.h
+-
+CoordinateTransformation.h
+/home/finley/CODE/cootrans/CoordinateTransformation.h
+

@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/finley/CODE/Coordinate_transformation/CoordinateTransformation.cpp" "/home/finley/CODE/Coordinate_transformation/cmake-build-debug/CMakeFiles/Coordinate_transformation.dir/CoordinateTransformation.cpp.o"
-  "/home/finley/CODE/Coordinate_transformation/main.cpp" "/home/finley/CODE/Coordinate_transformation/cmake-build-debug/CMakeFiles/Coordinate_transformation.dir/main.cpp.o"
+  "/home/finley/CODE/cootrans/CoordinateTransformation.cpp" "/home/finley/CODE/cootrans/build/CMakeFiles/Coordinate_transformation.dir/CoordinateTransformation.cpp.o"
+  "/home/finley/CODE/cootrans/main.cpp" "/home/finley/CODE/cootrans/build/CMakeFiles/Coordinate_transformation.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

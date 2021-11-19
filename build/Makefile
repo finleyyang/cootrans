@@ -57,10 +57,10 @@ RM = /home/finley/Downloads/clion-2021.2.3/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/finley/CODE/Coordinate_transformation
+CMAKE_SOURCE_DIR = /home/finley/CODE/cootrans
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/finley/CODE/Coordinate_transformation/cmake-build-debug
+CMAKE_BINARY_DIR = /home/finley/CODE/cootrans/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/finley/CODE/Coordinate_transformation/cmake-build-debug/CMakeFiles /home/finley/CODE/Coordinate_transformation/cmake-build-debug//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/finley/CODE/cootrans/build/CMakeFiles /home/finley/CODE/cootrans/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/finley/CODE/Coordinate_transformation/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/finley/CODE/cootrans/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

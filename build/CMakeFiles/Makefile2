@@ -54,10 +54,10 @@ RM = /home/finley/Downloads/clion-2021.2.3/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/finley/CODE/Coordinate_transformation
+CMAKE_SOURCE_DIR = /home/finley/CODE/cootrans
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/finley/CODE/Coordinate_transformation/cmake-build-debug
+CMAKE_BINARY_DIR = /home/finley/CODE/cootrans/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/Coordinate_transformation.dir/clean
 CMakeFiles/Coordinate_transformation.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coordinate_transformation.dir/build.make CMakeFiles/Coordinate_transformation.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Coordinate_transformation.dir/build.make CMakeFiles/Coordinate_transformation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/finley/CODE/Coordinate_transformation/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target Coordinate_transformation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/finley/CODE/cootrans/build/CMakeFiles --progress-num=1,2,3 "Built target Coordinate_transformation"
 .PHONY : CMakeFiles/Coordinate_transformation.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Coordinate_transformation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/finley/CODE/Coordinate_transformation/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/finley/CODE/cootrans/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Coordinate_transformation.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/finley/CODE/Coordinate_transformation/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/finley/CODE/cootrans/build/CMakeFiles 0
 .PHONY : CMakeFiles/Coordinate_transformation.dir/rule
 
 # Convenience name for target.

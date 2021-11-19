@@ -53,10 +53,10 @@ RM = /home/finley/Downloads/clion-2021.2.3/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/finley/CODE/Coordinate_transformation
+CMAKE_SOURCE_DIR = /home/finley/CODE/cootrans
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/finley/CODE/Coordinate_transformation/cmake-build-debug
+CMAKE_BINARY_DIR = /home/finley/CODE/cootrans/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Coordinate_transformation.dir/depend.make
@@ -68,29 +68,29 @@ include CMakeFiles/Coordinate_transformation.dir/flags.make
 
 CMakeFiles/Coordinate_transformation.dir/main.cpp.o: CMakeFiles/Coordinate_transformation.dir/flags.make
 CMakeFiles/Coordinate_transformation.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/finley/CODE/Coordinate_transformation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Coordinate_transformation.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Coordinate_transformation.dir/main.cpp.o -c /home/finley/CODE/Coordinate_transformation/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/finley/CODE/cootrans/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Coordinate_transformation.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Coordinate_transformation.dir/main.cpp.o -c /home/finley/CODE/cootrans/main.cpp
 
 CMakeFiles/Coordinate_transformation.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Coordinate_transformation.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/finley/CODE/Coordinate_transformation/main.cpp > CMakeFiles/Coordinate_transformation.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/finley/CODE/cootrans/main.cpp > CMakeFiles/Coordinate_transformation.dir/main.cpp.i
 
 CMakeFiles/Coordinate_transformation.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Coordinate_transformation.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/finley/CODE/Coordinate_transformation/main.cpp -o CMakeFiles/Coordinate_transformation.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/finley/CODE/cootrans/main.cpp -o CMakeFiles/Coordinate_transformation.dir/main.cpp.s
 
 CMakeFiles/Coordinate_transformation.dir/CoordinateTransformation.cpp.o: CMakeFiles/Coordinate_transformation.dir/flags.make
 CMakeFiles/Coordinate_transformation.dir/CoordinateTransformation.cpp.o: ../CoordinateTransformation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/finley/CODE/Coordinate_transformation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Coordinate_transformation.dir/CoordinateTransformation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Coordinate_transformation.dir/CoordinateTransformation.cpp.o -c /home/finley/CODE/Coordinate_transformation/CoordinateTransformation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/finley/CODE/cootrans/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Coordinate_transformation.dir/CoordinateTransformation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Coordinate_transformation.dir/CoordinateTransformation.cpp.o -c /home/finley/CODE/cootrans/CoordinateTransformation.cpp
 
 CMakeFiles/Coordinate_transformation.dir/CoordinateTransformation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Coordinate_transformation.dir/CoordinateTransformation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/finley/CODE/Coordinate_transformation/CoordinateTransformation.cpp > CMakeFiles/Coordinate_transformation.dir/CoordinateTransformation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/finley/CODE/cootrans/CoordinateTransformation.cpp > CMakeFiles/Coordinate_transformation.dir/CoordinateTransformation.cpp.i
 
 CMakeFiles/Coordinate_transformation.dir/CoordinateTransformation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Coordinate_transformation.dir/CoordinateTransformation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/finley/CODE/Coordinate_transformation/CoordinateTransformation.cpp -o CMakeFiles/Coordinate_transformation.dir/CoordinateTransformation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/finley/CODE/cootrans/CoordinateTransformation.cpp -o CMakeFiles/Coordinate_transformation.dir/CoordinateTransformation.cpp.s
 
 # Object files for target Coordinate_transformation
 Coordinate_transformation_OBJECTS = \
@@ -104,7 +104,7 @@ Coordinate_transformation: CMakeFiles/Coordinate_transformation.dir/main.cpp.o
 Coordinate_transformation: CMakeFiles/Coordinate_transformation.dir/CoordinateTransformation.cpp.o
 Coordinate_transformation: CMakeFiles/Coordinate_transformation.dir/build.make
 Coordinate_transformation: CMakeFiles/Coordinate_transformation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/finley/CODE/Coordinate_transformation/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Coordinate_transformation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/finley/CODE/cootrans/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Coordinate_transformation"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Coordinate_transformation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -116,6 +116,6 @@ CMakeFiles/Coordinate_transformation.dir/clean:
 .PHONY : CMakeFiles/Coordinate_transformation.dir/clean
 
 CMakeFiles/Coordinate_transformation.dir/depend:
-	cd /home/finley/CODE/Coordinate_transformation/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/finley/CODE/Coordinate_transformation /home/finley/CODE/Coordinate_transformation /home/finley/CODE/Coordinate_transformation/cmake-build-debug /home/finley/CODE/Coordinate_transformation/cmake-build-debug /home/finley/CODE/Coordinate_transformation/cmake-build-debug/CMakeFiles/Coordinate_transformation.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/finley/CODE/cootrans/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/finley/CODE/cootrans /home/finley/CODE/cootrans /home/finley/CODE/cootrans/build /home/finley/CODE/cootrans/build /home/finley/CODE/cootrans/build/CMakeFiles/Coordinate_transformation.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Coordinate_transformation.dir/depend
 
