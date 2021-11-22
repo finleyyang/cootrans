@@ -21,7 +21,9 @@ int main() {
 
     LLA2ENU(localla1, localla2, locaenu2);
     std::cout << locaenu2.x<<" "<<locaenu2.y<<" "<<locaenu2.z<<std::endl;
-
-
+    LocationLLA localla3;
+    std::cout << localla3.Lon<<" "<<localla3.Lat<<" "<<localla3.altitude<<std::endl;
+    ENU2LLA(localla1, locaenu2, localla3);
+    std::cout << localla3.Lon<<" "<<localla3.Lat<<" "<<localla3.altitude<<std::endl;
     return 0;
 }
